@@ -242,7 +242,7 @@ z-index: 100000;
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
-    background-color:  RGBa(240, 32, 32, 0.972);
+    background-color:  red;
 }
 
 
@@ -267,7 +267,7 @@ nav > ul >li:hover a{
 	background-color: RGBa(238, 56, 183);
 }
 .menu-sql .submenu{
-    background-color: #ff0505;
+    background-color: red;
 }
 
 .submenu li:hover{
@@ -288,7 +288,7 @@ nav > ul >li:hover a{
 }
 
 .menu-sql .submenu li:hover{
-    background-color: RGB(251, 6, 6, 0.727);
+    background-color: red;
 }
 
 .menu-mobile{
