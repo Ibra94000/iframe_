@@ -245,6 +245,11 @@ z-index: 100000;
     border-top: 5px solid #ff0505;
     background-color:  red;
 }
+.menu-PPE:hover{
+    border-top: 5px solid #ff4500;;
+    background-color:  red;
+}
+
 
 
 
@@ -290,6 +295,9 @@ nav > ul >li:hover a{
 
 .menu-sql .submenu li:hover{
     background-color: red;
+}
+.menu-PPE.submenu li:hover{
+    background-color:rgb(255, 69, 0);
 }
 
 .menu-mobile{
