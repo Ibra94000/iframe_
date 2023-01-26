@@ -2,7 +2,7 @@ body{
    font-family: verdana, Calibri, sans-serif;
         margin: 0px;
 	padding: 0px;
-	background:url('itachi.gif') 0% 100% fixed;
+	background:url('itachi.gif')
 	background-repeat: no-repeat;
     height:100%;
     width:100%;
