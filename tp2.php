@@ -1,6 +1,6 @@
 <?php
-$i =4;
-while($i <= 12)
+$i =0;
+while($i <= 1230)
 {
 
     echo$i;

@@ -9,11 +9,11 @@
     <?php
     $a=$_REQUEST['t1'];
     $b=$_REQUEST['t2'];
-    $c=$a-$b;
+    echo $a+$b;
    
-    echo "la somme est:" .$c;
+    echo "<br>"
     ?>
-    <br>
+   
     <a href = "javascript:history.back()">Essayez à nouveau </a>
 
 </body>

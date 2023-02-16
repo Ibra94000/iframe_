@@ -1,6 +1,7 @@
 <html>
  <body>
-Nous sommes le <?php echo Date("j/m/v");  ?><br>
+<p>Nous sommes le <?php echo Date("j/m/v");  ?></p>
+<br>
 <?php
 echo "il est".Date("H;i;s")."<br>";
 if ( Date("H") <12) {
