@@ -250,6 +250,9 @@ z-index: 100000;
     border-top: 5px solid #ff4500;;
     background-color:  RGB(255, 69, 0);
 }
+.menu-php:hover{
+	border-top: 5px solid #49ed34;
+	background-color: RGBa(57, 179, 41);
 
 
 
@@ -279,6 +282,10 @@ nav > ul >li:hover a{
 .menu-PPE .submenu{
     background-color: RGB(255, 69, 0);
 }
+.menu-PHP:hover{
+border-top: 5px solid #49ed34;
+background-color: RGBa(57, 179, 41);}
+	
 
 .submenu li:hover{
 	color:#EEE;
@@ -303,6 +310,10 @@ nav > ul >li:hover a{
 .menu-PPE.submenu li:hover{
     background-color:RGB(255, 69, 0);
 }
+.menu-PHP:hover{
+background-color: RGBa(57, 179, 41);
+}
+	
 
 .menu-mobile{
 
