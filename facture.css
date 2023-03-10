@@ -1,0 +1,237 @@
+h1{
+
+    margin-left: 45%;
+    color: rgb(95, 95, 95);
+  
+}
+
+h2{
+    margin-left: 91%;
+  
+}
+h3{
+    margin-left: 20%;
+  
+}
+h4{
+    margin-left: 20%;
+   
+}
+h5{
+    margin-left: 20%;
+   
+}
+
+.d9{
+    background-color: rgb(250, 152, 5);
+}
+h6{
+
+    font-size: 170%;
+}
+
+    
+hr{
+    position: relative;
+    bottom: 65px;
+    right: 1020px;}
+
+body{
+    background-color: rgb(250, 13, 5);
+}
+p{
+
+    font-size: 150%;
+    margin-bottom: 49px;
+    margin-top: -39px;
+
+}
+.run{
+
+   
+    position:relative;
+    left: 51%;
+    font-size: 170%;
+    bottom: 333px;
+    border: 10%;
+    font-weight: bold;
+
+}
+ 
+
+
+
+.class2 { 
+    position: relative;
+    bottom: 341px;
+    left: 850px;
+    right: 2425px;
+    size: 50%;
+
+
+
+}
+h8{
+    position:relative;
+    left: 51%;
+    font-size: 150%;
+    bottom: 350px;
+    border: 10%;
+}
+h9{
+    position:relative;
+    left: 51%;
+    font-size: 150%;
+    bottom: 350px;
+    border: 10%;
+}
+
+h10{
+    position:relative;
+    left: 51%;
+    font-size: 150%;
+    bottom: 350px;
+    border: 10%;
+}
+h11{
+    position:relative;
+    left: 51%;
+    font-size: 150%;
+    bottom: 350px;
+    border: 10%;
+}
+h12{
+    position:relative;
+    left: 51%;
+    font-size: 150%;
+    bottom: 350px;
+    border: 10%;
+}
+.send{
+    position: relative;
+    bottom: 65px;
+}
+.haut{
+    position: relative;
+    bottom: 95px;
+}
+.port{
+    position: relative;
+    bottom: 50px;
+}
+.left{
+    position: relative;
+    bottom:   105px;
+}
+.right{
+    position: relative;
+    bottom:   115px;
+
+}
+table
+{ position: relative;
+    border: 5px solid rgb(15, 14, 14);
+    width: 99%;
+    left: 20px;
+    height: 100%;
+    bottom: 298px;
+   
+   
+   
+    
+}
+
+th
+{
+    background-color:  rgb(250, 152, 5);
+    margin-top: 10px;
+    height: 30px;
+  
+    
+    
+}
+.totalLigne
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.desc
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+    
+    
+}
+
+.qte
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+    
+}
+.prix
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+td
+{
+    border: 1px solid black;
+    height: 40px;
+}
+
+.d5
+{   position: relative;
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 120%;
+    bottom: 250px;
+    border: 50%;
+    font-weight: bold;
+    
+    
+}
+
+.i6
+{
+    border: 0px;
+
+}
+
+
+button
+{
+    margin-top: 250px;
+}
+
+
+#result{
+
+    color: black;
+    text-align: center;
+}
+
+.buttonjs
+{
+    margin-top: 250px;
+}
+.rmq{
+    position: relative;
+    bottom: 180px;
+    font-size: 150%;
+
+}
+img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="facture.css">
+    <script src="facture.js"></script>
+
+<body>
+    <div class="d9">
+
+<td>
+    <tr>
+        
+<h1> FACTURE </h1>
+<img src="pht.jpg">
+
+
+<h2>26/01/2023</h2>
+
+<h3>Nom de la compagnie </h3>
+<h4>Adresse postale</h4>
+<h5>Détails du contact</h5>
+</tr>
+</td>
+</div>
+
+
+
+<h6>Destinataire</h6>
+<hr>
+<br>
+<p class="port"> Nom  </p>
+<p class="send"> Nom de la sociète </p>
+<br>
+<p class="haut"> Adresse postale</p>
+<p class="left"> Téléphone </p>
+<p class="right"> Email</p>
+
+<h7 class="run">Envoyer à </h7>
+<hr class="class2" />
+<h8>Nom</h8>
+<br>
+<h9>Nom de la sociète</h9>
+<br>
+<h10>Adresse postale</h10>
+<br>
+<h11>Téléphone</h11>
+<br>
+<h12>Email</h12>
+<table id="table_inv">
+    <tr> 
+        <th> DESCRIPTION</th> 
+        <th> QUANTITE</th> 
+        <th> PRIX UNITAIRE</th> 
+        <th> TOTAL</th>
+        
+    </tr>
+    
+    <tr class="row"> 
+        <td> <input type="text" class="desc" name="desc" value="desc1"> </td> 
+        <td> <input type="text" class="input qte" id="inputA" name="qte" value="0"> </td> 
+        <td> <input type="text" class="input prix" id="inputB" name="prix" value="0"> </td>
+        <td> <input type="text" class="totalLigne" id="T1" name="total" value="0.00"> </td>
+    </tr>
+         
+    <tr>
+        <td> <input type="text" class="desc" name="desc" value="desc2"> </td>
+        <td> <input type="text" class="input qte" id="inputC" name="qte" value="0"> </td> 
+        <td> <input type="text" class="input prix" id="inputD" name="prix" value="0"> </td>
+        <td> <input type="text" class="totalLigne" id="T2" name="total" value="0.00"> </td>  
+    </tr>
+    
+    <tr class="row" id="modeleLigne">
+        <td> <input type="text" class="desc" name="desc" value="desc3"> </td>
+        <td> <input type="text" class="input qte" id="inputE" name="qte" value="0"> </td> 
+        <td> <input type="text" class="input prix" id="inputF" name="prix" value="0"> </td>
+        <td> <input type="text" class="totalLigne" id="T3" name="total" readonly="readonly" value="0.00"> </td> 
+    </tr>
+    
+    <tr class="row lastrow" id="lastLigne">
+        <td> <input type="text" class="desc"  name="desc" value="desc4"> </td>
+        <td> <input type="text" class="input qte" id="inputG" name="qte" value="0"> </td> 
+        <td> <input type="text" class="input prix" id="inputI" name="prix" value="0"> </td>
+        <td> <input type="text" class="totalLigne" id="T4" name="total" readonly="readonly" value="0.00"> </td> 
+    </tr>
+     
+    </table>
+    <h13 class="rmq">Remarques, notes instructions de paiement  :</h13>
+
+    <div class="d5">
+       SOUS-TOTAL : <input type="text" class="i6" id="ST"> <br> <br>
+        REMISES : <input type="text" class="i6" id="Re"> <br> <br>
+        SOUS-TOTAL LES MOINS REMISES  : <input type="text" class="i6" id="STM"> <br> <br>
+        TAUX D'IMPOSITION : <input type="text" class="i6" id="TI"> <br> <br>
+       TAUX TOTALE : <input type="text" class="i6" id="Tt"> <br> <br>
+        EXPEDITO, MANUTENTION : <input type="text" class="i6" id="E_M"> <br> <br>
+    
+        <h3> Solde du : <input type="text" class="i6" id="SOL"> </h3>
+    </div>
+    <br>
+    
+    <br>
+    <div class="buttonjs">
+    <input type="button" onclick="Calculer()" value="Calculer le solde">
+    <input type="button" onclick="remplir()" value="Remplir automatiquement">
+    <input type="button" onclick="ajouterLigne()" value="Ajouter une Ligne">
+    <input type="button" onclick="calculate()" value="Calcul total">
+    <input type="reset">
+    
+    </div>
+    </form>
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
