@@ -190,8 +190,8 @@ z-index: 100000;
     background-color:  red;
 }
 .menu-ppe:hover{
-    border-top: 5px solid rgb(255, 251, 0);
-    background-color:  rgb(126 126 122);
+    border-top: 5px solid rgb(129 121 121);
+    background-color:  #ccc;
 	}
 .menu-php:hover{
     border-top: 5px solid #eb9c0a;
@@ -209,7 +209,7 @@ z-index: 100000;
     background-color: #05ffaefa;
 }
 .menu-ppe .submenu{
-    background-color: #ffa500;
+    background-color: rgb(133 126 126);
 }
 .menu-mission .submenu{
     background-color: #0000ff;
