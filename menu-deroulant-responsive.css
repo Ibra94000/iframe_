@@ -166,78 +166,75 @@ z-index: 100000;
 	width: 270px;
 }
 .menu-html:hover{
-	border-top: 5px solid #29b7b7;
-	background color : RGBa(9, 217, 217);
+	border-top: 5px solid #29b79b;
+	background-color: rgb(0, 255, 195)
 }
 .menu-css:hover{
-	border-top: 5px solid #0070bb;
-	background-color: RGBa(000, 112, 192, 0.15);
+	border-top: 5px solid #bba200;
+	background-color: rgb(255, 251, 0)
 }
 .menu-js:hover{
 	border-top: 5px solid #ee38b7;
-	background-color: RGBa(238, 56, 183);
+	background-color: pink;
 }
 .menu-contact:hover{
 	border-top: 5px solid #49ed34;
-	background-color: RGBa(57, 179, 41);
+	background-color: greenyellow
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
-	background-color: RGBa(14, 6, 251, 0.727);
+	background-color: #00a1ff;
 }
 .menu-sql:hover{
-    border-top: 5px solid #ff0505;
+    border-top: 5px solid #b80808;
     background-color:  red;
 }
-.menu-PPE:hover{
-    border-top: 5px solid #ff4500;;
-    background-color:  RGB(255, 69, 0);
-}
-nav > ul >li:hover a{
-	padding: 15px 30px 20px 30px;
+.menu-ppe:hover{
+    border-top: 5px solid rgb(255, 251, 0);
+    background-color:  rgb(126 126 122);
+	}
+.menu-php:hover{
+    border-top: 5px solid #eb9c0a;
+    background-color:  #f6ae2b;
+	}
+    
+    
+
+
+
+.menu-sql .submenu{
+    background-color: #ff0505;
 }
 .menu-html .submenu{
-	background-color: RGB(9, 217, 217);
+    background-color: #05ffaefa;
 }
-.menu-css.submenu{
-	background-color: RGB(000 160, 240);
+.menu-ppe .submenu{
+    background-color: #ffa500;
 }
 .menu-mission .submenu{
-	background-color: #4245e9;
+    background-color: #0000ff;
 }
 .menu-js .submenu{
-	background-color: RGBa(238, 56, 183);
+    background-color: pink;
 }
-.menu-sql .submenu{
-    background-color: red;
+.menu-php .submenu{
+    background-color: #ffa500;
 }
 .menu-PPE .submenu{
-    background-color:
-    background-color: RGB(255, 69, 0);
+    background-color: #ff0505;
 }
+
 
 .submenu li:hover{
 	color:#EEE;
-	font-weight: bold;
+
+ 
 }
-.menu-html .submenu li:hover{
-	background-color: RGB(9, 217, 217);
+.menu-ppe.submenu li:hover{
+    background-color:rgb(255, 69, 0);
+   
 }
-.menu-css .submenu li:hover{
-	background-color: RGB(000, 115, 200);
-}
-.menu-js .submenu li:hover{
-	background-color: RGBa(238, 56, 183);
-}
-.menu-mission.submenu li:hover{
-    background-color: RGB(14, 6, 251, 0.727);
-}
-.menu-sql .submenu li:hover{
-    background-color: red;
-}
-.menu-PPE.submenu li:hover{
-    background-color:RGB(255, 69, 0);
-}
+
 .menu-mobile{
 display: none;
 }
