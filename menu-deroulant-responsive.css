@@ -1,3 +1,4 @@
+
 body{   
    font-family: verdana, Calibri, sans-serif;
         margin: 0px;
@@ -9,7 +10,6 @@ body{
    
 	
 }
-
  
 main div h1{
 	text-align: center;
@@ -30,7 +30,6 @@ main div h1{
  
 	
 }
-
 .content {
 	background-color:rgba(255,255,255,.8);
 	border-radius:.25em;
@@ -49,7 +48,6 @@ main div h1{
 	justify-content: 50%;
 	margin-top: 70%;
 	margin: 20%;
-	margin-left:30%;
 	color: purple;
     text-shadow:
     0 0 7px #fff,
@@ -99,18 +97,12 @@ main div h1{
 	
 	 
        
-
 nav > ul{
      margin: 0px;
      padding: 0px;
-
-
 }
-
 nav li{
     list-style-type: square;
-
-
 }
 .content {
 	background-color:rgba(255,255,255,.8);
@@ -124,123 +116,75 @@ nav li{
 	top:50%;
 	transform:translate(-50%, -50%);
 	}
-
-
-
 nav > ul> li{
-
 	float: left;
 }
-
 .submenu{
      display: none;
-
-
 }
-
 nav input[type=checkbox]{
          display: none;
-
-
 }
-
-
 ;menu-mobile{
           display: none;
-
 }
 nav{
-
 	width: 100%;
 	background-color: rgb(80, 76, 76);
 }
-
 nav > ul > li{
-
 	float: left;
 	position: relative;
-
 }
-
 nav > ul::after{
-
-
 	content: "";
 	display: table;
 	clear: both;
 }
-
 nav a{
-
    display: inline-block;
    text-decoration: none;
-
 }
-
 nav > ul > li > a{
-
 	padding: 20px 30px;
 	color: white;
-
 }
-
 nav li:hover .submenu{
-
 display: inline-block;
 position: absolute;
 top: 100%;
 left: 0px;
 padding: 0px;
 z-index: 100000;
-
-
-
 }
-
 .submenu li {
    border-bottom : 1px solid #CCC;
-
-
-
 }
-
-
 .submenu li a {
-
-
 	padding: 15px 30px;
 	font-size: 13px;
 	color: #222538;
 	width: 270px;
 }
-
 .menu-html:hover{
-
 	border-top: 5px solid #29b7b7;
 	background color : RGBa(9, 217, 217);
 }
 .menu-css:hover{
 	border-top: 5px solid #0070bb;
 	background-color: RGBa(000, 112, 192, 0.15);
-
-
 }
 .menu-js:hover{
 	border-top: 5px solid #ee38b7;
 	background-color: RGBa(238, 56, 183);
-
 }
-
-
 .menu-contact:hover{
 	border-top: 5px solid #49ed34;
 	background-color: RGBa(57, 179, 41);
-
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
 	background-color: RGBa(14, 6, 251, 0.727);
-
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
@@ -248,75 +192,30 @@ z-index: 100000;
 }
 .menu-PPE:hover{
     border-top: 5px solid #ff4500;;
+    background-color:  red;
     background-color:  RGB(255, 69, 0);
 }
-.menu-php:hover{
-	border-top: 5px solid #49ed34;
-	background-color: RGBa(57, 179, 41);
 
 
 
-
-nav > ul >li:hover a{
-	padding: 15px 30px 20px 30px;
-}
-
-.menu-html .submenu{
-	background-color: RGB(9, 217, 217);
-}
-
-.menu-css.submenu{
-	background-color: RGB(000 160, 240);
-}
-.menu-mission .submenu{
-	background-color: #4245e9;
-}
-
-
-.menu-js .submenu{
-	background-color: RGBa(238, 56, 183);
-}
 .menu-sql .submenu{
     background-color: red;
 }
 .menu-PPE .submenu{
-    background-color: RGB(255, 69, 0);
+    background-color:
 }
-.menu-PHP:hover{
-border-top: 5px solid #49ed34;
-background-color: RGBa(57, 179, 41);}
-	
 
 .submenu li:hover{
 	color:#EEE;
-	font-weight: bold;
-}
-.menu-html .submenu li:hover{
-	background-color: RGB(9, 217, 217);
-}
-.menu-css .submenu li:hover{
-	background-color: RGB(000, 115, 200);
-}
-.menu-js .submenu li:hover{
-	background-color: RGBa(238, 56, 183);
-}
-.menu-mission.submenu li:hover{
-    background-color: RGB(14, 6, 251, 0.727);
-}
 
-.menu-sql .submenu li:hover{
-    background-color: red;
+ 
 }
 .menu-PPE.submenu li:hover{
+    background-color:rgb(255, 69, 0);
     background-color:RGB(255, 69, 0);
 }
-.menu-PHP:hover{
-background-color: RGBa(57, 179, 41);
-}
-	
 
 .menu-mobile{
-
 display: none;
 }
 nav input[type=checkbox]{
@@ -325,7 +224,6 @@ nav input[type=checkbox]{
 nav input[type=checkbox]: checked ~ ul{
 	display: block;
 }
-
 @media screen and (max-width: 680px){
 	.menu-mobile{
 		display: block;
@@ -338,5 +236,9 @@ nav input[type=checkbox]: checked ~ ul{
 		display: none;
 	}
 }
+
+
+
+
 
 
