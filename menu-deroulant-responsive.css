@@ -167,24 +167,24 @@ z-index: 100000;
 	width: 270px;
 }
 .menu-html:hover{
-	border-top: 5px solid #29b7b7;
-	background color : RGBa(9, 217, 217);
+	border-top: 5px solid #29b79b;
+	background-color: rgb(0, 255, 195)
 }
 .menu-css:hover{
-	border-top: 5px solid #0070bb;
-	background-color: RGBa(000, 112, 192, 0.15);
+	border-top: 5px solid #bba200;
+	background-color: rgb(255, 251, 0)
 }
 .menu-js:hover{
 	border-top: 5px solid #ee38b7;
-	background-color: RGBa(238, 56, 183);
+	background-color: pink;
 }
 .menu-contact:hover{
 	border-top: 5px solid #49ed34;
-	background-color: RGBa(57, 179, 41);
+	background-color: greenyellow
 }
 .menu-mission:hover{
 	border-top: 5px solid #0070bb;
-	background-color: RGBa(14, 6, 251, 0.727);
+	background-color: blue;
 }
 .menu-sql:hover{
     border-top: 5px solid #ff0505;
@@ -202,8 +202,12 @@ z-index: 100000;
     background-color: red;
 }
 .menu-PPE .submenu{
-    background-color:
+    background-color: orange;
 }
+.menu-PPE .submenu{
+    background-color: blue;
+}
+
 
 .submenu li:hover{
 	color:#EEE;
@@ -212,7 +216,7 @@ z-index: 100000;
 }
 .menu-PPE.submenu li:hover{
     background-color:rgb(255, 69, 0);
-    background-color:RGB(255, 69, 0);
+   
 }
 
 .menu-mobile{
@@ -236,9 +240,3 @@ nav input[type=checkbox]: checked ~ ul{
 		display: none;
 	}
 }
-
-
-
-
-
-
