@@ -44,10 +44,11 @@ main div h1{
 	h1 {
 	font-family: cursive;
 	margin: 20%;
-		margin-right: 25%;
+		
 	justify-content: 50%;
 	margin-top: 70%;
 	margin: 20%;
+	margin-right: 25%;
 	color: purple;
     text-shadow:
     0 0 7px #fff,
