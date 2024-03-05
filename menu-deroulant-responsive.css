@@ -1,13 +1,9 @@
-body{   
-   font-family: verdana, Calibri, sans-serif;
-        margin: 0px;
-	padding: 0px;
-	background:url('itachi.gif') 0% 100% fixed;
-	
-    height:100%;
-    width:100%;
-   
-	
+body {
+    font-family: verdana, Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pars.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
  
 main div h1{
